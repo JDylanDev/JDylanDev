@@ -1,12 +1,12 @@
-# `JDylanDev`
+# JDylanDev
 
-> **CS student building things that probably shouldn't work.**
+**CS student building things that probably shouldn't work.**
 
 I'm a Computer Science student interested in:
 
-* 🌐 Web Development
-* 🎮 Game Development
-* 💻 Software Development
+* Web Development
+* Game Development
+* Software Development
 
 Currently learning, building, breaking, and rebuilding things.
 
@@ -24,14 +24,19 @@ A chain-reaction puzzle game where you're the last goblin left at work and have 
 
 ---
 
-## 📦 Projects
+##  Projects
 
-| Project          | Description                  | Technology      |
+| Project          | Description                  | Tech Stack      |
 | ---------------- | ---------------------------- | --------------- |
-| 🎮 Goblin Alarms | Chain-reaction puzzle game   | Godot           |
-| 🌐 Web Portfolio | Personal developer portfolio | HTML · CSS · JS |
+| Goblin Alarms    | Chain-reaction puzzle game   | Godot           |
+| Web Portfolio    | Personal developer portfolio | HTML · CSS · JS |
 
-More projects coming as I build them.
+## Experimental Labs
+
+| Lab              | Description                         |
+| ---------------- | ----------------------------------- |
+| Dev-Lab          | Experimenting projects and coding   |
+| Design-Lab       | Experimental designs and animations |
 
 ---
 
