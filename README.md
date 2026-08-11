@@ -3,18 +3,16 @@
   <img src="./assets/header-light.svg" alt="JDylanDev — CS student" width="100%">
 </picture>
 
-CS student. Web, games, and whatever else I can talk myself into building.
+CS Student | Beginner Developer
 
 ## Projects
 
 | Project | What it is | Stack | Status |
 | :-- | :-- | :-- | :-- |
-| **Goblin Alarms** | Chain-reaction puzzle game — you're the last goblin at work, wake someone up with increasingly ridiculous contraptions | Godot · GDScript | In development |
+| **Goblin Alarms** | Chain-reaction puzzle game, you're the last goblin at work, wake someone up with increasingly ridiculous contraptions | Godot · GDScript | In development |
 | **Web Portfolio** | Personal developer portfolio | HTML · CSS · JS | Live |
 
 ## Labs
-
-Two sandboxes where nothing has to ship.
 
 | Lab | What lives there |
 | :-- | :-- |
