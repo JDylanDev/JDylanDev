@@ -9,8 +9,8 @@ CS student. Web, games, and whatever else I can talk myself into building.
 
 | Project | What it is | Stack | Status |
 | :-- | :-- | :-- | :-- |
-| **[Goblin Alarms](#)** | Chain-reaction puzzle game — you're the last goblin at work, wake someone up with increasingly ridiculous contraptions | Godot · GDScript | In development |
-| **[Web Portfolio](#)** | Personal developer portfolio | HTML · CSS · JS | Live |
+| **Goblin Alarms** | Chain-reaction puzzle game — you're the last goblin at work, wake someone up with increasingly ridiculous contraptions | Godot · GDScript | In development |
+| **Web Portfolio** | Personal developer portfolio | HTML · CSS · JS | Live |
 
 ## Labs
 
@@ -18,8 +18,8 @@ Two sandboxes where nothing has to ship.
 
 | Lab | What lives there |
 | :-- | :-- |
-| **[Dev-Lab](#)** | Half-finished experiments, algorithm drills, things I'm testing |
-| **[Design-Lab](#)** | Layout studies, CSS animations, interface ideas |
+| **Dev-Lab** | Half-finished experiments, algorithm drills, things I'm testing |
+| **Design-Lab** | Layout studies, CSS animations, interface ideas |
 
 ## Currently learning
 
@@ -34,7 +34,3 @@ Two sandboxes where nothing has to ship.
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
   <img src="./assets/stack-light.svg" alt="Toolbox: C, Python, Java, JavaScript, HTML, CSS, Godot, Git, VS Code" width="640">
 </picture>
-
-## Reach me
-
-[GitHub](#) · [Portfolio](#) · [Email](#)
