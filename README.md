@@ -1,74 +1,40 @@
-# `JDylanDev`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <img src="./assets/header-light.svg" alt="JDylanDev — CS student" width="100%">
+</picture>
 
-> **CS student building things that probably shouldn't work.**
+CS student. Web, games, and whatever else I can talk myself into building.
 
-I'm a Computer Science student interested in:
+## Projects
 
-* 🌐 Web Development
-* 🎮 Game Development
-* 💻 Software Development
+| Project | What it is | Stack | Status |
+| :-- | :-- | :-- | :-- |
+| **[Goblin Alarms](#)** | Chain-reaction puzzle game — you're the last goblin at work, wake someone up with increasingly ridiculous contraptions | Godot · GDScript | In development |
+| **[Web Portfolio](#)** | Personal developer portfolio | HTML · CSS · JS | Live |
 
-Currently learning, building, breaking, and rebuilding things.
+## Labs
 
----
+Two sandboxes where nothing has to ship.
 
-## 🛠 Currently Building
+| Lab | What lives there |
+| :-- | :-- |
+| **[Dev-Lab](#)** | Half-finished experiments, algorithm drills, things I'm testing |
+| **[Design-Lab](#)** | Layout studies, CSS animations, interface ideas |
 
-### 🎮 Goblin Alarms
+## Currently learning
 
-A chain-reaction puzzle game where you're the last goblin left at work and have to wake someone up using increasingly ridiculous contraptions.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/learning-dark.svg">
+  <img src="./assets/learning-light.svg" alt="Currently learning: C, programming fundamentals, data structures, algorithms, HTML, CSS, JavaScript, Godot, GDScript" width="640">
+</picture>
 
-**Built with:** Godot · GDScript
+## Toolbox
 
-**Status:** 🚧 In Development
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <img src="./assets/stack-light.svg" alt="Toolbox: C, Python, Java, JavaScript, HTML, CSS, Godot, Git, VS Code" width="640">
+</picture>
 
----
+## Reach me
 
-## 📦 Projects
-
-| Project          | Description                  | Technology      |
-| ---------------- | ---------------------------- | --------------- |
-| 🎮 Goblin Alarms | Chain-reaction puzzle game   | Godot           |
-| 🌐 Web Portfolio | Personal developer portfolio | HTML · CSS · JS |
-
-More projects coming as I build them.
-
----
-
-## 🧠 Currently Learning
-
-```text
-Computer Science
-├── C
-├── Programming Fundamentals
-├── Data Structures
-└── Algorithms
-
-Web Development
-├── HTML
-├── CSS
-└── JavaScript
-
-Game Development
-└── Godot
-```
-
----
-
-## ⚙️ Tools
-
-`C` `Python` `Java` `HTML` `CSS` `JavaScript` `GDScript`
-
-`Git` `GitHub` `VS Code` `Godot`
-
----
-
-## 🚧 Current Status
-
-```text
-Learning    █████████░░░░░░
-Building    ████████░░░░░░░
-Shipping    ████░░░░░░░░░░░
-```
-
-> **One project at a time. Make each one better than the last.**
+[GitHub](#) · [Portfolio](#) · [Email](#)

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 244" width="640" height="244" role="img" aria-label="Toolbox: C, Python, Java, JavaScript, HTML, CSS, Godot, Git, VS Code">
+  <title>toolbox</title>
+
+  <style>
+    .mono { font-family: ui-monospace, "SFMono-Regular", "JetBrains Mono", "Cascadia Mono", Consolas, Menlo, monospace; }
+    .name { font-size: 13px; font-weight: 700; fill: #E6EDF3; letter-spacing: 1.5px; }
+    .code { font-size: 11px; fill: #8B949E; }
+    .tile { fill: #161B22; stroke: #30363D; stroke-width: 1.5; }
+    .scan { fill: none; stroke: #D29922; stroke-width: 1.5; opacity: 0; animation: scan 5.4s linear infinite; }
+    .caret { fill: #D29922; animation: blink 1.05s steps(1) infinite; }
+
+    @keyframes scan { 0% { opacity: 0 } 3% { opacity: 1 } 11% { opacity: 0 } 100% { opacity: 0 } }
+    @keyframes blink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .scan { animation: none } .caret { animation: none }
+    }
+  </style>
+
+  <g class="mono">
+    <g transform="translate(10,12)">
+      <rect class="tile" width="196" height="64" rx="10"/>
+      <text class="name" x="18" y="28">C</text>
+      <text class="code" x="18" y="48">#include &lt;stdio.h&gt;</text>
+      <rect class="scan" x="0.75" y="0.75" width="194.5" height="62.5" rx="10" style="animation-delay:0s"/>
+    </g>
+
+    <g transform="translate(222,12)">
+      <rect class="tile" width="196" height="64" rx="10"/>
+      <text class="name" x="18" y="28">PYTHON</text>
+      <text class="code" x="18" y="48">def __init__(self)</text>
+      <rect class="scan" x="0.75" y="0.75" width="194.5" height="62.5" rx="10" style="animation-delay:.6s"/>
+    </g>
+
+    <g transform="translate(434,12)">
+      <rect class="tile" width="196" height="64" rx="10"/>
+      <text class="name" x="18" y="28">JAVA</text>
+      <text class="code" x="18" y="48">public static void</text>
+      <rect class="scan" x="0.75" y="0.75" width="194.5" height="62.5" rx="10" style="animation-delay:1.2s"/>
+    </g>
+
+    <g transform="translate(10,90)">
+      <rect class="tile" width="196" height="64" rx="10"/>
+      <text class="name" x="18" y="28">JAVASCRIPT</text>
+      <text class="code" x="18" y="48">const fn = () =&gt; {}</text>
+      <rect class="scan" x="0.75" y="0.75" width="194.5" height="62.5" rx="10" style="animation-delay:1.8s"/>
+    </g>
+
+    <g transform="translate(222,90)">
+      <rect class="tile" width="196" height="64" rx="10"/>
+      <text class="name" x="18" y="28">HTML</text>
+      <text class="code" x="18" y="48">&lt;section class=""&gt;</text>
+      <rect class="scan" x="0.75" y="0.75" width="194.5" height="62.5" rx="10" style="animation-delay:2.4s"/>
+    </g>
+
+    <g transform="translate(434,90)">
+      <rect class="tile" width="196" height="64" rx="10"/>
+      <text class="name" x="18" y="28">CSS</text>
+      <text class="code" x="18" y="48">:root { --gray: }</text>
+      <rect class="scan" x="0.75" y="0.75" width="194.5" height="62.5" rx="10" style="animation-delay:3s"/>
+    </g>
+
+    <g transform="translate(10,168)">
+      <rect class="tile" width="196" height="64" rx="10"/>
+      <text class="name" x="18" y="28">GODOT</text>
+      <text class="code" x="18" y="48">func _process(delta)</text>
+      <rect class="scan" x="0.75" y="0.75" width="194.5" height="62.5" rx="10" style="animation-delay:3.6s"/>
+    </g>
+
+    <g transform="translate(222,168)">
+      <rect class="tile" width="196" height="64" rx="10"/>
+      <text class="name" x="18" y="28">GIT</text>
+      <text class="code" x="18" y="48">git commit -m "..."</text>
+      <rect class="scan" x="0.75" y="0.75" width="194.5" height="62.5" rx="10" style="animation-delay:4.2s"/>
+    </g>
+
+    <g transform="translate(434,168)">
+      <rect class="tile" width="196" height="64" rx="10"/>
+      <text class="name" x="18" y="28">VS CODE</text>
+      <text class="code" x="18" y="48">Ctrl + Shift + P <tspan class="caret">&#9612;</tspan></text>
+      <rect class="scan" x="0.75" y="0.75" width="194.5" height="62.5" rx="10" style="animation-delay:4.8s"/>
+    </g>
+  </g>
+</svg>

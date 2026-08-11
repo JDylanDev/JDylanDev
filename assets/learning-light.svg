@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 252" width="640" height="252" role="img" aria-label="Currently learning: computer science, web development, game development">
+  <title>currently learning</title>
+
+  <defs>
+    <clipPath id="lr-card"><rect width="640" height="252" rx="14"/></clipPath>
+  </defs>
+
+  <style>
+    .mono  { font-family: ui-monospace, "SFMono-Regular", "JetBrains Mono", "Cascadia Mono", Consolas, Menlo, monospace; }
+    .bar   { font-size: 11px; fill: #59636E; letter-spacing: 3px; }
+    .title { font-size: 16px; font-weight: 700; fill: #1F2328; }
+    .item  { font-size: 12.5px; fill: #59636E; }
+    .sep   { fill: #D0D7DE; }
+    .accent{ fill: #9A6700; }
+
+    .rail { stroke-dasharray: 130; stroke-dashoffset: 130; animation: draw 1.4s ease-out .2s forwards; }
+    .node { opacity: 0; animation: pop .4s ease-out forwards; }
+    .row  { opacity: 0; animation: slide .45s ease-out forwards; }
+    .caret{ animation: blink 1.05s steps(1) infinite; }
+
+    @keyframes draw  { to { stroke-dashoffset: 0 } }
+    @keyframes pop   { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes slide { from { opacity: 0; transform: translateX(-8px) } to { opacity: 1; transform: translateX(0) } }
+    @keyframes blink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .rail { stroke-dashoffset: 0; animation: none }
+      .node, .row { opacity: 1; animation: none; transform: none }
+      .caret { animation: none }
+    }
+  </style>
+
+  <g clip-path="url(#lr-card)">
+    <rect width="640" height="252" fill="#FFFFFF"/>
+
+    <text class="mono bar" x="24" y="31">CURRENTLY LEARNING</text>
+    <g stroke="#59636E" stroke-width="1.2" fill="none">
+      <path d="M556 26 H570"/>
+      <rect x="584" y="20" width="12" height="12"/>
+      <path d="M610 20 L622 32 M622 20 L610 32"/>
+    </g>
+    <rect x="0" y="48" width="640" height="1" class="sep"/>
+
+    <path class="rail" d="M32 88 V218" stroke="#9A6700" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <circle class="node" cx="32" cy="88"  r="4.5" fill="#9A6700" style="animation-delay:.5s"/>
+    <circle class="node" cx="32" cy="153" r="4.5" fill="#9A6700" style="animation-delay:.85s"/>
+    <circle class="node" cx="32" cy="218" r="4.5" fill="#9A6700" style="animation-delay:1.15s"/>
+
+    <g class="row" style="animation-delay:.55s">
+      <text class="mono title" x="54" y="86"><tspan class="accent">{ }</tspan> computer science</text>
+      <text class="mono item"  x="54" y="107">c &#183; programming fundamentals &#183; data structures &#183; algorithms</text>
+    </g>
+
+    <g class="row" style="animation-delay:.9s">
+      <text class="mono title" x="54" y="151"><tspan class="accent">&lt;/&gt;</tspan> web development</text>
+      <text class="mono item"  x="54" y="172">html &#183; css &#183; javascript</text>
+    </g>
+
+    <g class="row" style="animation-delay:1.2s">
+      <text class="mono title" x="54" y="216"><tspan class="accent">&#9654;</tspan> game development</text>
+      <text class="mono item"  x="54" y="237">godot &#183; gdscript <tspan class="accent caret">&#9612;</tspan></text>
+    </g>
+
+    <rect width="640" height="252" rx="14" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+  </g>
+</svg>
