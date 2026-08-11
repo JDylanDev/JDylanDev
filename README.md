@@ -70,7 +70,7 @@
 | Project | What it is | Stack | Status |
 | :-- | :-- | :-- | :-- |
 | 🎮 **[Goblin Alarms](ADD_LINK)** | Chain-reaction puzzle game: you're the last goblin at work, waking someone up with increasingly ridiculous contraptions | Godot · GDScript | ![in development](https://img.shields.io/badge/in--development-D29922?style=for-the-badge&labelColor=30363D) |
-| 🌐 **[Web Portfolio](ADD_LINK)** | Personal developer portfolio | HTML · CSS · JS | ![shipped](https://img.shields.io/badge/🏆_shipped-3FB950?style=for-the-badge&labelColor=30363D) |
+| 🌐 **[Web Portfolio](ADD_LINK)** | Personal developer portfolio | HTML · CSS · JS | ![live](https://img.shields.io/badge/🏆_live-3FB950?style=for-the-badge&labelColor=30363D) |
 
 ## 🧪 Side Quests
 
