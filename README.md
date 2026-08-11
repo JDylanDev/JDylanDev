@@ -12,9 +12,9 @@ Currently learning, building, breaking, and rebuilding things.
 
 ---
 
-## 🛠 Currently Building
+## 🛠 Projects Made
 
-### 🎮 Goblin Alarms
+### > Goblin Alarms
 
 A chain-reaction puzzle game where you're the last goblin left at work and have to wake someone up using increasingly ridiculous contraptions.
 
@@ -67,8 +67,7 @@ Game Development
 
 ```text
 Learning    █████████░░░░░░
-Building    ████████░░░░░░░
-Shipping    ████░░░░░░░░░░░
+Building    ██████░░░░░░░░░
 ```
 
 > **One project at a time. Make each one better than the last.**
